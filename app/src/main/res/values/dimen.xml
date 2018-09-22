@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer name="game_scale_height_01">200</integer>
+    <integer name="game_scale_height_02">675</integer>
+    <integer name="game_scale_height_03">275</integer>
+    <integer name="game_scale_height_04">300</integer>
+
+    <integer name="game_title_top">30</integer>
+    <integer name="game_title_left">325</integer>
+
+    <integer name="game_button_submit">250</integer>
+    <integer name="game_button_submit_left">425</integer>
+    <integer name="game_button_submit_top">50</integer>
+
+    <integer name="game_button_exit_width">150</integer>
+    <integer name="game_button_exit_height">200</integer>
+    <integer name="game_button_exit_left">900</integer>
+    <integer name="game_button_exit_top">100</integer>
+
+    <integer name="game_blank_button_base_width">360</integer>
+    <integer name="game_blank_button_base_height">75</integer>
+
+    <integer name="game_blank_object_left_01">140</integer>
+    <integer name="game_blank_object_left_02">580</integer>
+
+    <integer name="game_blank_object_top_00">125</integer>
+    <integer name="game_blank_object_top_01">225</integer>
+    <integer name="game_blank_object_top_02">325</integer>
+    <integer name="game_blank_object_top_03">425</integer>
+    <integer name="game_blank_object_top_04">525</integer>
+
+    <integer name="game_blank_answer_left_01">140</integer>
+    <integer name="game_blank_answer_left_02">580</integer>
+
+    <integer name="game_blank_answer_top_01">0</integer>
+    <integer name="game_blank_answer_top_02">100</integer>
+    <integer name="game_blank_answer_top_03">200</integer>
+
+    <integer name="game_blank_sentence_base_width">1000</integer>
+    <integer name="game_blank_sentence_base_height">500</integer>
+    <integer name="game_blank_sentence_top">100</integer>
+    <integer name="game_blank_sentence_left">40</integer>
+
+    <integer name="game_blank_sentence_line_01">100</integer>
+    <integer name="game_blank_sentence_line_02">210</integer>
+    <integer name="game_blank_sentence_line_03">320</integer>
+    <integer name="game_blank_sentence_line_04">430</integer>
+    <integer name="game_blank_sentence_line_05">540</integer>
+
+    <integer name="game_blank_small_width">100</integer>
+    <integer name="game_blank_small_height">75</integer>
+
+    <integer name="game_blank_small_left_01">140</integer>
+
+    <integer name="game_order_object_left_01">160</integer>
+    <integer name="game_order_object_left_02">640</integer>
+    <integer name="game_order_object_left_middle">360</integer>
+
+    <integer name="game_order_number_left_01">100</integer>
+    <integer name="game_order_number_left_02">580</integer>
+    <integer name="game_order_number_left_middle">300</integer>
+
+    <integer name="game_order_object_top_01">195</integer>
+    <integer name="game_order_object_top_02">295</integer>
+    <integer name="game_order_object_top_03">395</integer>
+    <integer name="game_order_object_top_04">495</integer>
+    <integer name="game_order_object_top_05">595</integer>
+
+    <integer name="game_order_number_top_01">215</integer>
+    <integer name="game_order_number_top_02">315</integer>
+    <integer name="game_order_number_top_03">415</integer>
+    <integer name="game_order_number_top_04">515</integer>
+    <integer name="game_order_number_top_05">615</integer>
+
+    <integer name="game_order_answer_left_01">140</integer>
+    <integer name="game_order_answer_left_02">580</integer>
+
+    <integer name="game_order_answer_top_01">95</integer>
+    <integer name="game_order_answer_top_02">195</integer>
+
+    <integer name="game_order_button_base_width">360</integer>
+    <integer name="game_order_button_base_height">80</integer>
+
+    <integer name="game_order_number_base_width">40</integer>
+    <integer name="game_order_number_base_height">40</integer>
+
+    <integer name="game_fix_sentence_line_01">295</integer>
+    <integer name="game_fix_sentence_line_02">390</integer>
+    <integer name="game_fix_sentence_line_03">490</integer>
+    <integer name="game_fix_sentence_line_04">590</integer>
+    <integer name="game_fix_sentence_line_05">690</integer>
+    <integer name="game_fix_sentence_line_06">790</integer>
+    <integer name="game_fix_sentence_line_07">890</integer>
+
+    <integer name="game_fix_title_left">290</integer>
+
+    <integer name="game_fix_subtitle_left">40</integer>
+    <integer name="game_fix_subtitle_top">100</integer>
+    <integer name="game_fix_subtitle_width">1000</integer>
+    <integer name="game_fix_subtitle_height">50</integer>
+
+    <integer name="game_button_fix_run">200</integer>
+    <integer name="game_button_fix_run_left">75</integer>
+    <integer name="game_button_fix_run_top">100</integer>
+
+    <integer name="game_fix_sentence_clickable_height">60</integer>
+
+    <integer name="game_fix_sentence_base_width">1080</integer>
+    <integer name="game_fix_sentence_base_height">650</integer>
+
+    <integer name="game_fix_sentence_top">300</integer>
+    <integer name="game_fix_sentence_left">0</integer>
+
+    <integer name="game_fix_sentence_word_01">65</integer>
+    <integer name="game_fix_sentence_word_01.5">90</integer>
+    <integer name="game_fix_sentence_word_02">130</integer>
+    <integer name="game_fix_sentence_word_03">195</integer>
+    <integer name="game_fix_sentence_word_03.5">220</integer>
+    <integer name="game_fix_sentence_word_04">260</integer>
+    <integer name="game_fix_sentence_word_04.5">285</integer>
+    <integer name="game_fix_sentence_word_05">325</integer>
+    <integer name="game_fix_sentence_word_05.5">350</integer>
+    <integer name="game_fix_sentence_word_10">650</integer>
+
+    <integer name="game_fix_algorithm_base_width">1080</integer>
+    <integer name="game_fix_algorithm_base_height">750</integer>
+    <integer name="game_fix_algorithm_base_top">200</integer>
+
+    <integer name="game_fix_algorithm_clickable_height">40</integer>
+    <integer name="game_fix_order_clickable_height">45</integer>
+
+    <integer name="game_fix_code_base_width">1080</integer>
+    <integer name="game_fix_code_base_height">645</integer>
+    <integer name="game_fix_code_base_left">0</integer>
+    <integer name="game_fix_code_base_top">250</integer>
+
+    <integer name="game_fix_code_line_01">250</integer>
+    <integer name="game_fix_code_line_02">300</integer>
+    <integer name="game_fix_code_line_03">350</integer>
+    <integer name="game_fix_code_line_04">400</integer>
+    <integer name="game_fix_code_line_05">450</integer>
+    <integer name="game_fix_code_line_06">500</integer>
+    <integer name="game_fix_code_line_07">550</integer>
+    <integer name="game_fix_code_line_08">600</integer>
+    <integer name="game_fix_code_line_09">650</integer>
+    <integer name="game_fix_code_line_10">700</integer>
+    <integer name="game_fix_code_line_11">750</integer>
+    <integer name="game_fix_code_line_12">800</integer>
+    <integer name="game_fix_code_line_13">850</integer>
+
+    <integer name="game_fix_code_left_in_00">150</integer>
+    <integer name="game_fix_code_left_in_01">240</integer>
+    <integer name="game_fix_code_left_in_02">330</integer>
+    <integer name="game_fix_code_left_in_03">420</integer>
+
+    <integer name="text_size_non_korean">80</integer>
+    <integer name="text_size_game">50</integer>
+    <integer name="tutorial_iterator">825</integer>
+    <integer name="tutorial_current_page">700</integer>
+    <integer name="tutorial_max_page">840</integer>
+
+    <integer name="game_challenge_count_top">12</integer>
+    <integer name="game_challenge_count_size">60</integer>
+    <integer name="ranking_name_left">250</integer>
+    <integer name="ranking_name_width">500</integer>
+    <integer name="ranking_number_left">125</integer>
+    <integer name="ranking_score_left">775</integer>
+
+    <!-- 클릭 가능한 가로 크기는 50 * n으로 할 것. -->
+
+    <integer name="game_fix_code_clickable_height">50</integer>
+
+    <integer name="game_fix_code_clickable_scale_width">20</integer>
+
+    <integer name="game_fix_scale_height">950</integer>
+
+    <color name="game_fix_clickable_common">#500A6E0A</color>
+    <color name="game_fix_clickable_code">#00FF0000</color>
+    <color name="game_fix_clickable_clicked">#50CD1039</color>
+
+</resources>

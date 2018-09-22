@@ -1,0 +1,100 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion '26.0.2'
+    defaultConfig {
+        applicationId "com.example.m_user.geel_job"
+        minSdkVersion 21
+        targetSdkVersion 25
+        versionCode 2
+        versionName '1.1'
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    productFlavors {
+    }
+    sourceSets {
+        main {
+            /*
+            manifest.srcFile '/src/main/AndroidManifest.xml'
+            java.srcDirs = ['/src/main/java', 'apt_generated']
+            aidl.srcDirs = ['/src/main/aidl', 'apt_generated']
+            assets.srcDirs = ['/src/main/assets']
+            */
+                 res.srcDirs = [
+                          '/src/main/res/gameplay/blank/ch1'
+                         , '/src/main/res/gameplay/blank/ch2'
+                         , '/src/main/res/gameplay/blank/ch3'
+                         , '/src/main/res//gameplay/blank'
+
+                         , '/src/main/res/gameplay/bool/ch1'
+                         , '/src/main/res/gameplay/bool/ch2'
+                         , '/src/main/res/gameplay/bool/ch3'
+                         , '/src/main/res/gameplay/bool'
+
+                         , '/src/main/res/gameplay/event'
+
+                         , '/src/main/res/gameplay/fix/ch1'
+                         , '/src/main/res/gameplay/fix/ch2'
+                         , '/src/main/res/gameplay/fix/ch3'
+                         , '/src/main/res/gameplay/fix'
+
+                         , '/src/main/res/gameplay/order/ch1'
+                         , '/src/main/res/gameplay/order/ch2'
+                         , '/src/main/res/gameplay/order/ch3'
+                         , '/src/main/res/gameplay/order'
+                         , '/src/main/res/gameplay/ranking'
+                          , '/src/main/res/gameplay/title'
+                          , '/src/main/res/gameplay/result'
+                          , '/src/main/res/gameplay/interface'
+                         , '/src/main/res/gameplay'
+
+                          , '/src/main/res/tutorial/list'
+
+                          , '/src/main/res/tutorial/chapter/ch1/sub1'
+                          , '/src/main/res/tutorial/chapter/ch1/sub2'
+                          , '/src/main/res/tutorial/chapter/ch1/sub3'
+                          , '/src/main/res/tutorial/chapter/ch2/sub1'
+                          , '/src/main/res/tutorial/chapter/ch3/sub1'
+                          , '/src/main/res/tutorial/chapter/ch3/sub2'
+                          , '/src/main/res/tutorial/chapter/ch3/sub3'
+                          , '/src/main/res/tutorial/chapter/ch3/sub4'
+                          , '/src/main/res/tutorial/chapter/ch3/sub5'
+                          , '/src/main/res/tutorial/chapter/ch3/sub6'
+                          , '/src/main/res/tutorial/chapter/ch1'
+                          , '/src/main/res/tutorial/chapter/ch2'
+                          , '/src/main/res/tutorial/chapter/ch3'
+                          , '/src/main/res/tutorial/chapter'
+
+                          , '/src/main/res/tutorial/event'
+                          , '/src/main/res/tutorial/quiz'
+                          , '/src/main/res/tutorial/interface'
+                         , '/src/main/res/tutorial'
+                         , '/src/main/res/gameplay'
+                         , '/src/main/res/option'
+                         , '/src/main/res/title'
+
+                         , '/src/main/res'
+                 ]
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile 'com.ssomai:android.scalablelayout:2.1.1'
+    compile 'com.android.support:appcompat-v7:25.3.1'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    compile 'com.tsengvn:typekit:1.0.1'
+
+    testCompile 'junit:junit:4.12'
+}

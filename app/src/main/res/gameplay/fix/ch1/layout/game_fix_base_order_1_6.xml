@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:sl="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_game"
+    android:orientation="vertical"
+    android:gravity="bottom"
+    >
+
+    <View
+        android:id="@+id/extra_view01"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <com.ssomai.android.scalablelayout.ScalableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scale01"
+        sl:scale_base_height="200"
+        sl:scale_base_width="1080">
+
+        <ImageView
+            android:id="@+id/game_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/title_fix"
+            app:scale_height="70"
+            app:scale_left="@integer/game_fix_title_left"
+            app:scale_top="@integer/game_title_top"
+            app:scale_width="500" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/game_interface_score"
+            app:scale_height="50"
+            app:scale_left="80"
+            app:scale_top="150"
+            app:scale_width="240" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/game_interface_time"
+            app:scale_height="50"
+            app:scale_left="820"
+            app:scale_top="150"
+            app:scale_width="160" />
+
+    </com.ssomai.android.scalablelayout.ScalableLayout>
+
+    <com.ssomai.android.scalablelayout.ScalableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scale02"
+        sl:scale_base_height="@integer/game_fix_scale_height"
+        sl:scale_base_width="1080">
+
+        <ImageView
+            android:id="@+id/fix_subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/fix_title_sentence"
+            app:scale_height="@integer/game_fix_subtitle_height"
+            app:scale_left="@integer/game_fix_subtitle_left"
+            app:scale_top="@integer/game_fix_subtitle_top"
+            app:scale_width="@integer/game_fix_subtitle_width"/>
+
+        <TextView
+            android:id="@+id/game_score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="000"
+            android:textAlignment="center"
+            app:scale_height="70"
+            app:scale_left="80"
+            app:scale_top="5"
+            app:scale_width="240"
+            sl:scale_textsize="50"
+            />
+
+        <TextView
+            android:id="@+id/game_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="000"
+            android:textAlignment="center"
+            app:scale_height="70"
+            app:scale_left="785"
+            app:scale_top="5"
+            app:scale_width="240"
+            sl:scale_textsize="50"
+            />
+
+        <ImageView
+            android:id="@+id/clickable_object_01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@color/game_fix_clickable_common"
+            app:scale_height="@integer/game_fix_order_clickable_height"
+            app:scale_left="515"
+            app:scale_top="300"
+            app:scale_width="195" />
+
+        <ImageView
+            android:id="@+id/clickable_object_02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@color/game_fix_clickable_common"
+            app:scale_height="@integer/game_fix_order_clickable_height"
+            app:scale_left="145"
+            app:scale_top="395"
+            app:scale_width="195" />
+
+        <ImageView
+            android:id="@+id/clickable_object_03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@color/game_fix_clickable_common"
+            app:scale_height="@integer/game_fix_order_clickable_height"
+            app:scale_left="400"
+            app:scale_top="395"
+            app:scale_width="90" />
+
+        <ImageView
+            android:id="@+id/clickable_object_04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@color/game_fix_clickable_common"
+            app:scale_height="@integer/game_fix_order_clickable_height"
+            app:scale_left="515"
+            app:scale_top="495"
+            app:scale_width="50" />
+
+        <ImageView
+            android:id="@+id/clickable_object_05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@color/game_fix_clickable_common"
+            app:scale_height="@integer/game_fix_order_clickable_height"
+            app:scale_left="375"
+            app:scale_top="590"
+            app:scale_width="50" />
+
+        <ImageView
+            android:id="@+id/clickable_object_06"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@color/game_fix_clickable_common"
+            app:scale_height="@integer/game_fix_order_clickable_height"
+            app:scale_left="490"
+            app:scale_top="590"
+            app:scale_width="85" />
+
+        <ImageView
+            android:id="@+id/clickable_object_07"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@color/game_fix_clickable_common"
+            app:scale_height="@integer/game_fix_order_clickable_height"
+            app:scale_left="265"
+            app:scale_top="690"
+            app:scale_width="150" />
+
+        <ImageView
+            android:id="@+id/clickable_object_08"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@color/game_fix_clickable_common"
+            app:scale_height="@integer/game_fix_order_clickable_height"
+            app:scale_left="445"
+            app:scale_top="785"
+            app:scale_width="85" />
+
+        <ImageView
+            android:id="@+id/fix_background"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/fix_bg_ch1_q6"
+            app:scale_height="@integer/game_fix_algorithm_base_height"
+            app:scale_left="@integer/game_fix_sentence_left"
+            app:scale_top="@integer/game_fix_algorithm_base_top"
+            app:scale_width="@integer/game_fix_algorithm_base_width" />
+
+    </com.ssomai.android.scalablelayout.ScalableLayout>
+
+    <View
+        android:id="@+id/extra_view02"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <com.ssomai.android.scalablelayout.ScalableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scale03"
+        sl:scale_base_height="@integer/game_scale_height_04"
+        sl:scale_base_width="1080">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/fix_object_count"
+            app:scale_height="100"
+            app:scale_left="75"
+            app:scale_top="0"
+            app:scale_width="275"
+            />
+
+        <TextView
+            android:id="@+id/count_challenge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3"
+            app:scale_height="100"
+            app:scale_left="350"
+            app:scale_top="@integer/game_challenge_count_top"
+            app:scale_width="200"
+            sl:scale_textsize="@integer/game_challenge_count_size" />
+
+        <ImageView
+            android:id="@+id/button_game_exit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/game_interface_exit"
+            android:layout_gravity="bottom"
+            app:scale_height="@integer/game_button_exit_height"
+            app:scale_left="@integer/game_button_exit_left"
+            app:scale_top="@integer/game_button_exit_top"
+            app:scale_width="@integer/game_button_exit_width"/>
+
+        <ImageView
+            android:id="@+id/button_game_submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/button_game_submit"
+            app:scale_height="@integer/game_button_submit"
+            app:scale_left="@integer/game_button_submit_left"
+            app:scale_top="@integer/game_button_submit_top"
+            app:scale_width="@integer/game_button_submit" />
+
+    </com.ssomai.android.scalablelayout.ScalableLayout>
+
+    <View
+        android:id="@+id/extra_view03"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+    </View>
+
+</LinearLayout>

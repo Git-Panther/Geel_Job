@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:sl="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ch1_sub1_ox1"
+    android:id="@+id/turorial_ox_layout"
+
+    android:orientation="vertical"
+    android:gravity="bottom">
+
+    <com.ssomai.android.scalablelayout.ScalableLayout
+        android:id="@+id/sl_main1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        sl:scale_base_height="1600"
+        sl:scale_base_width="2500">
+
+        <ImageView
+            android:id="@+id/ox_button_true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ox_button_true"
+            app:scale_height="1000"
+            app:scale_left="200"
+            app:scale_top="600"
+            app:scale_width="1000" />
+
+        <ImageView
+            android:id="@+id/ox_button_false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ox_button_false"
+            app:scale_height="1000"
+            app:scale_left="1400"
+            app:scale_top="600"
+            app:scale_width="1000" />
+
+    </com.ssomai.android.scalablelayout.ScalableLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+
+    <com.ssomai.android.scalablelayout.ScalableLayout
+        android:id="@+id/sl_main2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        sl:scale_base_height="1500"
+        sl:scale_base_width="2500">
+
+        <ImageView
+            android:id="@+id/ox_button_hint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ox_button_hint"
+            app:scale_height="1100"
+            app:scale_left="1300"
+            app:scale_top="230"
+            app:scale_width="1100" />
+
+    </com.ssomai.android.scalablelayout.ScalableLayout>
+
+        <com.ssomai.android.scalablelayout.ScalableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            sl:scale_base_height="130"
+            sl:scale_base_width="1080">
+
+        <ImageView
+            android:id="@+id/button_game_exit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/button_back_content"
+            app:scale_height="100"
+            app:scale_left="0"
+            app:scale_top="0"
+            app:scale_width="250" />
+
+        <ImageView
+            android:id="@+id/btnPrev"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/button_prev_tutorial"
+            android:alpha="00"
+            app:scale_height="130"
+            app:scale_left="330"
+            app:scale_top="0"
+            app:scale_width="200" />
+
+        <ImageView
+            android:id="@+id/btnNext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/button_next_tutorial"
+            android:alpha="00"
+            app:scale_height="130"
+            app:scale_left="600"
+            app:scale_top="0"
+            app:scale_width="200" />
+    </com.ssomai.android.scalablelayout.ScalableLayout>
+</LinearLayout>

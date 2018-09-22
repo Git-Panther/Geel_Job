@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:sl="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/tutorial_content_layout"
+    android:orientation="vertical"
+    android:background="@drawable/game_event14"
+    android:gravity="bottom"
+    >
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <com.ssomai.android.scalablelayout.ScalableLayout
+        android:id="@+id/scale1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        sl:scale_base_height="492"
+        sl:scale_base_width="1080">
+
+        <ImageView
+            android:id="@+id/focus02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/focus_game_event02"
+            app:scale_height="232"
+            app:scale_left="32"
+            app:scale_top="0"
+            app:scale_width="1000" />
+
+        <LinearLayout
+            android:id="@+id/place_blank1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:scale_height="52"
+            app:scale_left="250"
+            app:scale_top="10"
+            app:scale_width="250" >
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/blank1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/game_object_blank"
+            app:scale_height="52"
+            app:scale_left="250"
+            app:scale_top="10"
+            app:scale_width="250"
+            />
+
+        <ImageView
+                android:id="@+id/quest1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/game_object_event01"
+                app:scale_height="52"
+                app:scale_left="570"
+                app:scale_top="10"
+                app:scale_width="250" />
+
+        <ImageView
+            android:id="@+id/quest2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/game_object_event02"
+            app:scale_height="52"
+            app:scale_left="570"
+            app:scale_top="87"
+            app:scale_width="250" />
+
+        <LinearLayout
+            android:id="@+id/place_blank2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:scale_height="52"
+            app:scale_left="250"
+            app:scale_top="87"
+            app:scale_width="250" >
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/blank2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/game_object_blank"
+            app:scale_height="52"
+            app:scale_left="250"
+            app:scale_top="87"
+            app:scale_width="250"
+            />
+
+        <LinearLayout
+            android:id="@+id/place_blank3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:scale_height="52"
+            app:scale_left="250"
+            app:scale_top="164"
+            app:scale_width="250" >
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/blank3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/game_object_blank"
+            app:scale_height="52"
+            app:scale_left="250"
+            app:scale_top="164"
+            app:scale_width="250"
+            />
+
+        <ImageView
+            android:id="@+id/quest3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/game_object_event03"
+            app:scale_height="52"
+            app:scale_left="570"
+            app:scale_top="164"
+            app:scale_width="250" />
+
+        <ImageView
+            android:id="@+id/focus03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/focus_game_event03"
+            app:scale_height="206"
+            app:scale_left="35"
+            app:scale_top="286"
+            app:scale_width="1000" />
+
+        <LinearLayout
+            android:id="@+id/place_answer1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:scale_height="52"
+            app:scale_left="250"
+            app:scale_top="296"
+            app:scale_width="250" >
+
+        <ImageView
+            android:id="@+id/answer1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/game_answer_event01"
+            />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/place_answer2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:scale_height="52"
+            app:scale_left="570"
+            app:scale_top="296"
+            app:scale_width="250" >
+
+        <ImageView
+            android:id="@+id/answer2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/game_answer_event02"
+            />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/place_answer3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:scale_height="52"
+            app:scale_left="250"
+            app:scale_top="363"
+            app:scale_width="250" >
+
+        <ImageView
+            android:id="@+id/answer3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/game_answer_event03"
+             />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/place_answer4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:scale_height="52"
+            app:scale_left="570"
+            app:scale_top="363"
+            app:scale_width="250" >
+
+        <ImageView
+            android:id="@+id/answer4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/game_answer_event04"
+             />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/place_answer5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:scale_height="52"
+            app:scale_left="250"
+            app:scale_top="430"
+            app:scale_width="250" >
+
+        <ImageView
+            android:id="@+id/answer5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/game_answer_event05"
+             />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/place_answer6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:scale_height="52"
+            app:scale_left="570"
+            app:scale_top="430"
+            app:scale_width="250" >
+
+        <ImageView
+            android:id="@+id/answer6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/game_answer_event06"
+             />
+
+        </LinearLayout>
+
+    </com.ssomai.android.scalablelayout.ScalableLayout>
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <com.ssomai.android.scalablelayout.ScalableLayout
+        android:id="@+id/scale2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        sl:scale_base_height="200"
+        sl:scale_base_width="1080">
+
+        <ImageView
+            android:id="@+id/game_check_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/button_game_event_check"
+            app:scale_height="200"
+            app:scale_left="810"
+            app:scale_top="0"
+            app:scale_width="200" />
+
+    </com.ssomai.android.scalablelayout.ScalableLayout>
+
+    <com.ssomai.android.scalablelayout.ScalableLayout
+        android:id="@+id/scale3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        sl:scale_base_height="100"
+        sl:scale_base_width="1080">
+
+        <TextView
+            android:id="@+id/current_page_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10"
+            android:textColor="@android:color/white"
+            android:textAlignment="textEnd"
+            app:scale_height="100"
+            app:scale_left="@integer/tutorial_current_page"
+            app:scale_top="0"
+            app:scale_width="200"
+            sl:scale_textsize="@integer/text_size_non_korean" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:text="/"
+            android:textAlignment="center"
+            app:scale_height="100"
+            app:scale_left="@integer/tutorial_iterator"
+            app:scale_top="0"
+            app:scale_width="200"
+            sl:scale_textsize="@integer/text_size_non_korean" />
+
+        <TextView
+            android:id="@+id/max_page_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:text="10"
+            android:textAlignment="textEnd"
+            app:scale_height="100"
+            app:scale_left="@integer/tutorial_max_page"
+            app:scale_top="0"
+            app:scale_width="200"
+            sl:scale_textsize="@integer/text_size_non_korean" />
+    </com.ssomai.android.scalablelayout.ScalableLayout>
+
+
+    <com.ssomai.android.scalablelayout.ScalableLayout
+        android:id="@+id/scale4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        sl:scale_base_height="100"
+        sl:scale_base_width="1080">
+
+        <SeekBar
+            android:id="@+id/bgSeekBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:thumb="@drawable/tutorial_move_bar"
+            android:progressDrawable="@drawable/progress_tutorial"
+            android:visibility="invisible"
+            app:scale_height="100"
+            app:scale_left="200"
+            app:scale_top="0"
+            app:scale_width="700" />
+
+    </com.ssomai.android.scalablelayout.ScalableLayout>
+
+    <com.ssomai.android.scalablelayout.ScalableLayout
+        android:id="@+id/scale5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        sl:scale_base_height="130"
+        sl:scale_base_width="1080">
+
+        <ImageView
+            android:id="@+id/button_game_exit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/button_back_content"
+            app:scale_height="100"
+            app:scale_left="0"
+            app:scale_top="0"
+            app:scale_width="250" />
+
+        <ImageView
+            android:id="@+id/btnPrev"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/button_prev_tutorial"
+            app:scale_height="130"
+            app:scale_left="330"
+            app:scale_top="0"
+            app:scale_width="200" />
+
+        <ImageView
+            android:id="@+id/btnNext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/button_next_tutorial"
+            app:scale_height="130"
+            app:scale_left="600"
+            app:scale_top="0"
+            app:scale_width="200" />
+
+    </com.ssomai.android.scalablelayout.ScalableLayout>
+</LinearLayout>

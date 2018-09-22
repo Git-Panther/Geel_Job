@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.m_user.geel_job">
+
+    <application
+        android:name=".Title.CustomStartApp"
+        android:allowBackup="true"
+        android:icon="@drawable/geel_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/geel_icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Title.Title_main"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Tutorial.List.Tutorial_List" android:screenOrientation="portrait"/>
+        <activity android:name=".Tutorial.Tutorial_event_content" android:screenOrientation="portrait"/>
+        <activity android:name=".Tutorial.Tutorial_OX_main" android:screenOrientation="portrait"/>
+
+        <activity android:name=".Tutorial.List.Tutorial_ch1_list" android:screenOrientation="portrait"/>
+
+        <activity android:name=".Tutorial.List.Tutorial_ch2_list" android:screenOrientation="portrait"/>
+
+        <activity android:name=".Tutorial.List.Tutorial_ch3_list" android:screenOrientation="portrait"/>
+
+        <activity android:name=".Tutorial.Tutorial_ch_sub_content" android:screenOrientation="portrait"/>
+        <activity android:name=".Tutorial.Tutorial_After_OX" android:screenOrientation="portrait"/>
+
+
+        <activity android:name=".GamePlay.Game_List" android:screenOrientation="portrait"/>
+
+        <activity android:name=".GamePlay.Event.Game_event_content" android:screenOrientation="portrait"/>
+        <activity android:name=".GamePlay.Event.Game_event_Game_Play" android:screenOrientation="portrait"/>
+        <activity android:name=".GamePlay.Event.Game_event_AfterGame" android:screenOrientation="portrait"/>
+
+        <activity android:name=".GamePlay.Blank.Game_Blank_Base" android:screenOrientation="portrait"/>
+        <activity android:name=".GamePlay.Bool.Game_Bool_Base" android:screenOrientation="portrait"/>
+        <activity android:name=".GamePlay.Order.Game_Order_Base" android:screenOrientation="portrait"/>
+        <activity android:name=".GamePlay.Fix.Game_Fix_Base" android:screenOrientation="portrait"/>
+
+        <activity android:name=".GamePlay.GameStagePreview" android:screenOrientation="portrait"/>
+        <activity android:name=".GamePlay.GameResult" android:screenOrientation="portrait"/>
+        <activity android:name=".GamePlay.Ranking.Game_Last_input" android:screenOrientation="portrait"/>
+        <activity android:name=".GamePlay.Ranking.Game_Last_output" android:screenOrientation="portrait"/>
+
+        <activity android:name=".Option.option_main" android:screenOrientation="portrait"/>
+    </application>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+
+</manifest>
